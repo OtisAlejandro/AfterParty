@@ -1,6 +1,12 @@
 # Instructions
 
-Using Vite, we need to first build the applicationf for a production environmentL
+Install Node.JS dependencies
+
+```sh
+npm install
+```
+
+Using Vite, we need to first build the application for a production environment:
 
 ```sh
 npm run build
