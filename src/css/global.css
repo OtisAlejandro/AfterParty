@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'FKScreamer';
+  src: url('/src/assets/fonts/FKScreamer-Upright.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMondwest';
+  src: url('/src/assets/fonts/PPMondwest-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMondwest-Bold';
+  src: url('/src/assets/fonts/PPMondwest-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  background-color: var(--color-black);
+  font-family: FKScreamer, system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+}
