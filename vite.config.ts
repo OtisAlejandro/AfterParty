@@ -10,7 +10,7 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/resend\/emails/, ''),
         headers: {
-          'Authorization': 'Bearer re_123456789'
+          'Authorization': 'Bearer re_Vqbc17HK_CsUU63Raa46BhNRziuYoS6F4'
         }
       }
     }
