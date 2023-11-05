@@ -51,9 +51,6 @@ const sendResend = async (registrationData: { firstName: string; lastName: strin
       reject(xhr.statusText);
     };
 
-    // Add Authorization header
-    // xhr.setRequestHeader('Authorization', 'Bearer re_LwSN1H3q_GqwugtkRnDhb9U7EMpKAAKQp');
-
     // Set Content-Type header to indicate JSON data
     xhr.setRequestHeader('Content-Type', 'application/json');
 
